@@ -1,0 +1,10 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Frontend läuft 🎉</h1>
+    <button onclick="fetch('/api/hello').then(r => r.json()).then(d => alert(d.message))">
+      Backend aufrufen
+    </button>
+  </body>
+</html>
